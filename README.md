@@ -32,3 +32,4 @@ To set up the project:
 **Copyright (c) 2025 Lincão.3D. All Rights Reserved.**
 
 This work is protected by copyright. Unauthorized use, reproduction, or distribution of this software, or any portion of it, is strictly prohibited. For inquiries regarding licensing or use, please contact the owner, Lincão.3D.# ReadingCheckApp
+# ReadingCheckApp
