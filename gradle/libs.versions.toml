@@ -1,0 +1,38 @@
+[versions]
+agp = "8.10.1"                     # Latest stable Android Gradle Plugin (AGP) version
+kotlin = "2.0.21"                  # Latest Kotlin version
+coreKtx = "1.16.0"                 # Latest stable androidx.core:core-ktx
+lifecycleRuntimeKtx = "2.9.1"      # Latest stable androidx.lifecycle:lifecycle-runtime-ktx
+appcompat = "1.7.1"                # Latest stable androidx.appcompat:appcompat
+material = "1.12.0"                # Updated to latest stable Material Components
+activity = "1.10.1"                 # Latest stable androidx.activity:activity-ktx
+constraintlayout = "2.2.1"         # Latest stable androidx.constraintlayout:constraintlayout
+junit = "4.13.2"                   # Latest stable JUnit 4
+androidxJunit = "1.2.1"            # Latest stable androidx.test.ext:junit
+espressoCore = "3.6.1"             # Latest stable androidx.test.espresso:espresso-core
+realmKotlin = "3.0.0"              # Latest stable Realm Kotlin library-base
+realmKotlinSync = "3.0.0"          # Latest stable Realm Kotlin sync library
+kotlinxCoroutines = "1.10.2"       # Latest stable kotlinx.coroutines
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity-ktx", version = "1.10.1" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidxJunit" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+
+realm-kotlin-base = { group = "io.realm.kotlin", name = "library-base", version.ref = "realmKotlin" }
+realm-kotlin-sync = { group = "io.realm.kotlin", name = "library-sync", version.ref = "realmKotlinSync" }
+
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinxCoroutines" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinxCoroutines" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+realm-kotlin = { id = "io.realm.kotlin", version.ref = "realmKotlin" }
