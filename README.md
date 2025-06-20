@@ -1,6 +1,6 @@
-# BProgress - Activity Tracker
+# Reading Check App - Activity Tracker
 
-BProgress is an Android application designed to help users track their activities, mark progress, highlight important items, and receive motivational notifications.
+Reading Check App is an Android application designed to help users track their activities, mark progress, highlight important items, and receive motivational notifications.
 
 ## Features
 
