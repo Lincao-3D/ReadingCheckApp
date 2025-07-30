@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        CheckboxTheme:
+        Changed parent to a Material Components CheckBox style.
+        Using buttonTint to color the checkbox. This is more idiomatic for Material Components.
+        Ensure your @color/white is defined in your colors.xml (which it is, based on your previous input).
+    -->
+    <style name="CheckboxTheme" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/white</item>
+        <!--
+            If you need to control the states more explicitly (e.g., different color when disabled),
+            you might need to use a ColorStateList resource for buttonTint.
+            For simple always-white, this should suffice.
+            The original android:colorControlActivated and android:colorControlNormal are
+            primarily AppCompat attributes and might not behave as expected or be necessary
+            when the parent is a Material Components widget style.
+        -->
+    </style>
+
+    <!--
+        CustomAlertDialogTheme:
+        Changed parent to a Material Components Dialog theme.
+        This aligns better with your main app theme (Theme.MaterialComponents.DayNight.NoActionBar).
+    -->
+    <style name="CustomAlertDialogTheme" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.7</item>
+    </style>
+
+</resources>

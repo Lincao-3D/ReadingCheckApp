@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardBackgroundColor="?attr/colorPrimaryVariant"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:id="@+id/activityItemLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground"> <!-- Ripple effect -->
+
+        <!-- First column -->
+        <TextView
+            android:id="@+id/textViewColumn1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:text="Activity Description Long Text Here"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="16sp"
+            android:paddingEnd="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:contentDescription="@string/activity_description" />
+
+        <!-- Second column -->
+        <TextView
+            android:id="@+id/textViewColumn2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Category"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="14sp"
+            android:paddingEnd="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:contentDescription="@string/activity_category" />
+
+        <CheckBox
+            android:id="@+id/itemCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

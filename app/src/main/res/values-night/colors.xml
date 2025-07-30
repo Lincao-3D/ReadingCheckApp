@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF0D0D0D</color> <!-- Deep charcoal black -->
+    <color name="white">#FFCAC2B9</color> <!-- Off-white parchment tone -->
+    <color name="dark_grey">#FF1A1E24</color> <!-- Bluish graphite -->
+    <color name="light_grey">#FF2F333A</color> <!-- Slate blue-grey -->
+    <color name="yellow_marker">#FFE8A758</color> <!-- Brass/golden-orange marker -->
+    <color name="dim_background">#80222229</color> <!-- Semi-transparent blue-black -->
+</resources>

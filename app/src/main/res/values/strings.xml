@@ -1,3 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App and Main Tabs -->
     <string name="app_name">BProgress</string>
+    <string name="main_activity_title">BProgress</string>
+    <string name="tab_activities">Activities</string>
+    <string name="tab_settings">Settings</string>
+    <string name="header_format">%1$s   %2$s</string>
+    <string name="notification_channel_name">General Notifications</string>
+    <string name="notification_channel_description">Notifications for BProgress app</string>
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>Español</item>
+        <item>Japanese</item>
+        <item>Portuguese</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>en</item>   <!-- Standard locale code for English -->
+        <item>es</item>   <!-- Standard locale code for Spanish -->
+        <item>ja</item><!-- Standard locale code for Japanese -->
+        <item>pt-rBR</item>   <!-- Standard locale code for Brazilian Portuguese -->
+
+    </string-array>
+    <string name="activity_description">Activity description</string>
+    <string name="activity_category">Activity category</string>
+
+
+    <!-- Activities Fragment -->
+    <string name="activities_fragment_title">Activities</string>
+    <string name="activities_last_sync_format">Last sync: %s</string>
+    <string name="activities_sync_now">Sync Now</string>
+    <string name="activities_no_activities">No activities found.</string>
+    <string name="activity_checked">Activity checked</string>
+    <string name="activity_unchecked">Activity unchecked</string>
+    <string name="important_status">important</string>
+    <string name="not_important_status">not important</string>
+    <string name="activity_status_prefix">Activity </string>
+    <string name="checkbox_tap_warning">Double click to check. Click and hold to highlight a task.</string>
+    <string name="tutorial_message">This is your activities list. To mark a task as read: double click or highlight it, long-pressing.</string>
+    <string name="activity_emoji_format">%1$s %2$s</string>
+
+
+    <!-- Settings Fragment -->
+    <string name="settings_fragment_title">Settings</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="language_selection_prompt">Select Language:</string>
+    <string name="donation_title">Support the Developer</string>
+    <string name="donation_pix_info">PIX Key: ffa986d6-edfc-4fe1-9f61-37355bae1c4a</string>
+    <string name="donation_paypal_info">PayPal: lincoln.3d.br@gmail.com</string>
+    <string name="copy_to_clipboard_text">Copy to Clipboard</string>
+    <string name="copied_to_clipboard_toast">Copied to clipboard!</string>
+    <string name="developer_info">Developer Information</string>
+    <string name="developer_name_and_contact">Lincão-3D, All rights reserved - 2025</string>
+
+    <!-- Streak Dialog -->
+    <string name="congrats_message_title">Incredible determination!</string>
+    <string name="congrats_message_body">You have reached an amazing 50-check streak! Your determination makes you unique.</string>
+    <string name="congrats_prompt">How do you feel about this achievement?</string>
+    <string name="send_button_text">Send</string>
+    <string name="send">Send</string>
+    <string name="fifty_streak_feeling_title">How did you feel on your 50th day streak?</string>
+    <string name="enter_feeling_hint">Share your feeling</string>
+    <string name="view_fifty_streak_feeling">See what you have felt on your 50th day streak</string>
+    <string name="no_feeling_recorded">No feeling recorded yet for your 50-day streak.</string>
+    <string name="copy_pix_key_button_desc">Copy PIX key to clipboard</string>
+    <string name="copy_paypal_email_button_desc">Copy PayPal email to clipboard</string>
+    <string name="streak_milestone_notification_title">Streak Milestone Reached!</string>
+    <string name="pix_key_label">PIX key</string>
+    <string name="paypal_label">Paypal</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_title">Welcome!</string>
+    <string name="tutorial_message_updated">Double-click an activity to mark it as done.
+
+Click and hold to highlight an activity.</string>
+    <string name="tutorial_got_it">Got It</string>
+    <string name="single_click_warning">Double-click to mark as done! Or click and hold to highlight.</string>
+    <string name="long_click_highlight_info">Activity highlighted!</string>
+
+    <!-- General -->
+    <string name="error_generic">An error occurred.</string>
+    <string name="sync_successful">Your answer may be checked/remembered by you right in settings tab!.</string>
+    <string name="sync_failed">Answer recording failed.</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_daily_reminder_name">Daily Activity Reminders</string>
+    <string name="notification_channel_daily_reminder_description">Get daily tips for your pending activities.</string>
+    <string name="default_daily_tip">Time to make some progress! Keep going!</string>
 </resources>

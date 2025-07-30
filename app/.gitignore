@@ -1,1 +1,41 @@
-/build
+# This .gitignore file specifies intentionally untracked files that Git should ignore.
+# It helps keep your repository clean by excluding build artifacts, temporary files, and IDE-specific configurations.
+
+# Android Studio and Gradle files
+*.iml
+.gradle/
+/local.properties
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+*.apk
+*.aab
+*.aar
+*.log
+*.class
+*.jar
+*.keystore
+local.properties.bak
+crashlytics-build.properties
+
+# Room database files
+*.db
+*.db-wal
+*.db-shm
+
+# Other common ignore patterns
+/out/
+.idea/gradle.xml
+.idea/compiler.xml
+.idea/vcs.xml
+.idea/deploymentTargetSelector.xml
+.idea/migrations.xml

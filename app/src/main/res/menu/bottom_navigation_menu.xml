@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    // Menu for the BottomNavigationView (icon-only) *-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_activities"
+        android:icon="@drawable/ic_list"
+        android:title="" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_gear"
+        android:title="" />
+</menu>

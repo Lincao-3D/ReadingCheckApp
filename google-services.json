@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "365341307202",
+    "project_id": "bprogress-8493b",
+    "storage_bucket": "bprogress-8493b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365341307202:android:12ee4ff1b09a927ec9d8db",
+        "android_client_info": {
+          "package_name": "com.example.bprogress"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0Dq8C2p4Saw_gffQyykjnW_0hPnarakQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

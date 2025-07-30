@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- アプリ名とメインタブ -->
+    <string name="app_name">BProgress</string>
+    <string name="main_activity_title">BProgress</string>
+    <string name="tab_activities">アクティビティ</string>
+    <string name="tab_settings">設定</string>
+    <string name="header_format">%1$s   %2$s</string>
+    <string name="notification_channel_name">一般通知</string>
+    <string name="notification_channel_description">BProgress アプリの通知</string>
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>Español</item>
+        <item>Japanese</item>
+        <item>Portuguese</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>en</item>   <!-- Standard locale code for English -->
+        <item>es</item>   <!-- Standard locale code for Spanish -->
+        <item>ja</item><!-- Standard locale code for Japanese -->
+        <item>pt-rBR</item>   <!-- Standard locale code for Brazilian Portuguese -->
+
+    </string-array>
+    <string name="activity_description">アクティビティの説明</string>
+    <string name="activity_category">アクティビティのカテゴリ</string>
+
+    <!-- アクティビティ画面 -->
+    <string name="activities_fragment_title">アクティビティ</string>
+    <string name="activities_last_sync_format">最終同期: %s</string>
+    <string name="activities_sync_now">今すぐ同期</string>
+    <string name="activities_no_activities">アクティビティが見つかりません。</string>
+    <string name="activity_checked">アクティビティ完了</string>
+    <string name="activity_unchecked">アクティビティ未完了</string>
+    <string name="important_status">重要</string>
+    <string name="not_important_status">重要でない</string>
+    <string name="activity_status_prefix">アクティビティ </string>
+    <string name="checkbox_tap_warning">ダブルタップで完了マーク。長押しでタスクをハイライト。</string>
+    <string name="tutorial_message">こちらがアクティビティ一覧です。タスクを完了にするには、ダブルタップか長押しでハイライトしてください。</string>
+
+    <!-- 設定画面 -->
+    <string name="settings_fragment_title">設定</string>
+    <string name="light_mode">ライトモード</string>
+    <string name="dark_mode">ダークモード</string>
+    <string name="language_selection_prompt">言語を選択してください：</string>
+    <string name="donation_title">開発者を支援</string>
+    <string name="donation_pix_info">PIXキー: ffa986d6-edfc-4fe1-9f61-37355bae1c4a</string>
+    <string name="donation_paypal_info">PayPal: lincoln.3d.br@gmail.com</string>
+    <string name="copy_to_clipboard_text">クリップボードにコピー</string>
+    <string name="copied_to_clipboard_toast">クリップボードにコピーしました！</string>
+    <string name="developer_info">開発者情報</string>
+    <string name="developer_name_and_contact">Lincão-3D、2025年 全著作権所有</string>
+    <string name="activity_emoji_format">%1$s %2$s</string>
+
+    <!-- ストリークダイアログ -->
+    <string name="congrats_message_title">驚異的な決意！</string>
+    <string name="congrats_message_body">驚きの50チェックストリークに到達しました！あなたの決意は本当に素晴らしいです。</string>
+    <string name="congrats_prompt">この達成についてどう感じましたか？</string>
+    <string name="send_button_text">送信</string>
+    <string name="send">送信</string>
+    <string name="fifty_streak_feeling_title">50日目のストリークでどんな気持ちでしたか？</string>
+    <string name="enter_feeling_hint">気持ちを共有してください</string>
+    <string name="view_fifty_streak_feeling">50日目のストリークでの気持ちを表示</string>
+    <string name="no_feeling_recorded">50日目のストリークの気持ちはまだ記録されていません。</string>
+    <string name="copy_pix_key_button_desc">Copiar clave PIX al portapapeles</string>
+    <string name="copy_paypal_email_button_desc">Copiar correo electrónico de PayPal al portapapeles</string>
+    <string name="streak_milestone_notification_title">連続マイルストーンを達成しました!</string>
+    <string name="pix_key_label">PIX キー</string>
+    <string name="paypal_label">Paypal</string>
+
+    <!-- チュートリアル -->
+    <string name="tutorial_title">ようこそ！</string>
+    <string name="tutorial_message_updated">アクティビティを完了にするにはダブルタップしてください。
+
+長押しでアクティビティをハイライトします。</string>
+    <string name="tutorial_got_it">了解</string>
+    <string name="single_click_warning">ダブルタップで完了マーク！または長押しでハイライト。</string>
+    <string name="long_click_highlight_info">アクティビティがハイライトされました！</string>
+
+    <!-- 共通 -->
+    <string name="error_generic">エラーが発生しました。</string>
+    <string name="sync_successful">設定タブで回答を確認/記憶できます。</string>
+    <string name="sync_failed">回答の記録に失敗しました。</string>
+
+    <!-- 通知 -->
+    <string name="notification_channel_daily_reminder_name">毎日のアクティビティリマインダー</string>
+    <string name="notification_channel_daily_reminder_description">保留中のアクティビティに関するヒントを毎日受け取ります。</string>
+    <string name="default_daily_tip">さあ、前進しましょう！頑張りましょう！</string>
+</resources>

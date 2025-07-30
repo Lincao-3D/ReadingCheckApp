@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:colorBackground"
+    tools:context=".SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Theme Switch -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/light_mode"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="16sp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/themeSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:thumbTint="?attr/colorSecondary"
+                android:trackTint="?attr/colorPrimaryVariant" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dark_mode"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Language Selection -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/language_selection_prompt"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="?attr/colorOnPrimary" />
+
+        <Spinner
+            android:id="@+id/languageSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:popupBackground="?attr/colorPrimaryVariant" />
+
+        <!-- Donation Info Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/donation_title"
+            android:textStyle="bold"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="18sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="12dp"/> <!-- Added bottom margin -->
+
+        <!-- PIX Key Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pix_key_label"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/> <!-- Adjust margin as needed -->
+
+        <TextView
+            android:id="@+id/pixKeyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/donation_pix_info"
+            android:padding="8dp"
+            android:background="@drawable/rounded_corner_background_border"
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_marginTop="4dp" /> <!-- Reduced top margin slightly -->
+
+        <Button
+            android:id="@+id/copyPixKeyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/copy_to_clipboard_text"
+            android:contentDescription="@string/copy_pix_key_button_desc"
+            android:layout_gravity="end"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="?attr/colorSecondary" />
+
+        <!-- Paypal Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/paypal_label"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/paypalEmailTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/donation_paypal_info"
+            android:padding="8dp"
+            android:background="@drawable/rounded_corner_background_border"
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_marginTop="4dp" /> <!-- Reduced top margin slightly -->
+
+        <Button
+            android:id="@+id/copyPaypalEmailButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/copy_to_clipboard_text"
+            android:contentDescription="@string/copy_paypal_email_button_desc"
+            android:layout_gravity="end"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="?attr/colorSecondary" />
+
+        <!-- 50-Streak Feeling Entry -->
+        <TextView
+            android:id="@+id/fiftyStreakFeelingTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fifty_streak_feeling_title"
+            android:layout_marginTop="24dp"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/viewFiftyStreakFeelingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/view_fifty_streak_feeling"
+            android:layout_marginTop="24dp"
+            android:visibility="gone"
+            android:backgroundTint="?attr/colorSecondary"
+            android:textColor="?attr/colorOnSecondary" />
+
+        <TextView
+            android:id="@+id/developerInfoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/developer_name_and_contact"
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_marginTop="24dp"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

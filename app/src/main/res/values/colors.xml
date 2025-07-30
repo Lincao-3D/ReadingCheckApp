@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="dark_grey">#FF212121</color>
+    <color name="light_grey">#FF424242</color>
+    <color name="yellow_marker">#FFFFEB3B</color> <!-- A bright yellow for marking -->
+    <color name="dim_background">#B3000000</color> <!-- Semi-transparent black for tutorial overlay (increased opacity) -->
 </resources>
+<!--   res/values/colors.xml  (Light Theme Defaults, added dim_background) -->

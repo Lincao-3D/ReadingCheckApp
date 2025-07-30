@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Aplicativo e Abas Principais -->
+    <string name="app_name">BProgress</string>
+    <string name="main_activity_title">BProgress</string>
+    <string name="tab_activities">Atividades</string>
+    <string name="tab_settings">Configurações</string>
+    <string name="header_format">%1$s   %2$s</string>
+    <string name="notification_channel_name">Notificações Gerais</string>
+    <string name="notification_channel_description">Notificações do aplicativo BProgress</string>
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>Español</item>
+        <item>Japanese</item>
+        <item>Português</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>en</item>   <!-- Standard locale code for English -->
+        <item>es</item>   <!-- Standard locale code for Spanish -->
+        <item>ja</item><!-- Standard locale code for Japanese -->
+        <item>pt-rBR</item>   <!-- Standard locale code for Brazilian Portuguese -->
+
+    </string-array>
+    <string name="activity_description">Descrição da atividade</string>
+    <string name="activity_category">Categoria da atividade</string>
+    <!-- Fragmento de Atividades -->
+    <string name="activities_fragment_title">Atividades</string>
+    <string name="activities_last_sync_format">Última sincronização: %s</string>
+    <string name="activities_sync_now">Sincronizar agora</string>
+    <string name="activities_no_activities">Nenhuma atividade encontrada.</string>
+    <string name="activity_checked">Atividade marcada</string>
+    <string name="activity_unchecked">Atividade desmarcada</string>
+    <string name="important_status">importante</string>
+    <string name="not_important_status">não importante</string>
+    <string name="activity_status_prefix">Atividade </string>
+    <string name="checkbox_tap_warning">Clique duas vezes para marcar. Pressione e segure para destacar uma tarefa.</string>
+    <string name="tutorial_message">Esta é sua lista de atividades. Para marcar uma tarefa como lida: clique duas vezes ou destaque segurando.</string>
+
+    <!-- Fragmento de Configurações -->
+    <string name="settings_fragment_title">Configurações</string>
+    <string name="light_mode">Modo Claro</string>
+    <string name="dark_mode">Modo Escuro</string>
+    <string name="language_selection_prompt">Selecione o idioma:</string>
+    <string name="donation_title">Apoie o Desenvolvedor</string>
+    <string name="donation_pix_info">Chave PIX: ffa986d6-edfc-4fe1-9f61-37355bae1c4a</string>
+    <string name="donation_paypal_info">PayPal: lincoln.3d.br@gmail.com</string>
+    <string name="copy_to_clipboard_text">Copiar para a Área de Transferência</string>
+    <string name="copied_to_clipboard_toast">Copiado para a área de transferência!</string>
+    <string name="developer_info">Informações do Desenvolvedor</string>
+    <string name="developer_name_and_contact">Lincão-3D, Todos os direitos reservados - 2025</string>
+    <string name="activity_emoji_format">%1$s %2$s</string>
+
+    <!-- Diálogo de Rastro (Streak) -->
+    <string name="congrats_message_title">Determinação incrível!</string>
+    <string name="congrats_message_body">Você alcançou uma incrível sequência de 50 marcações! Sua determinação é única.</string>
+    <string name="congrats_prompt">Como você se sente com essa conquista?</string>
+    <string name="send_button_text">Enviar</string>
+    <string name="send">Enviar</string>
+    <string name="fifty_streak_feeling_title">Como você se sentiu no 50º dia da sequência?</string>
+    <string name="enter_feeling_hint">Compartilhe seu sentimento</string>
+    <string name="view_fifty_streak_feeling">Veja o que você sentiu no 50º dia da sequência</string>
+    <string name="no_feeling_recorded">Ainda não há sentimento registrado para sua sequência de 50 dias.</string>
+    <string name="copy_pix_key_button_desc">Copiar chave PIX para a área de transferência</string>
+    <string name="copy_paypal_email_button_desc">Copiar e-mail do PayPal para a área de transferência</string>
+    <string name="streak_milestone_notification_title">Marco da sequência atingido!</string>
+    <string name="pix_key_label">Chave PIX</string>
+    <string name="paypal_label">Paypal</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_title">Bem-vindo!</string>
+    <string name="tutorial_message_updated">Clique duas vezes em uma atividade para marcá-la como concluída.
+
+Pressione e segure para destacá-la.</string>
+    <string name="tutorial_got_it">Entendi</string>
+    <string name="single_click_warning">Clique duas vezes para marcar como concluída! Ou pressione e segure para destacar.</string>
+    <string name="long_click_highlight_info">Atividade destacada!</string>
+
+    <!-- Geral -->
+    <string name="error_generic">Ocorreu um erro.</string>
+    <string name="sync_successful">Sua resposta pode ser verificada/lembrada por você logo ali — na aba "Configurações"!</string>
+    <string name="sync_failed">Falha na gravação da resposta.</string>
+
+    <!-- Notificações -->
+    <string name="notification_channel_daily_reminder_name">Lembretes de Atividades Diárias</string>
+    <string name="notification_channel_daily_reminder_description">Receba dicas diárias para suas atividades pendentes.</string>
+    <string name="default_daily_tip">Hora de progredir! Bora vamos!</string>
+</resources>
